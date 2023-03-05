@@ -1,13 +1,20 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <title>Dice Simulator</title>
+  <head>
+    <meta charset="UTF-8">
+    <title>Dice roller</title>
     <link rel="stylesheet" href="dice.css">
-</head>  
-<body>
-  <p id="placeholder">
-  
-  </p>
-  <button id="button">Roll Dice</button>
-  <script src="dice.js"></script>
-</body>
+  </head>
+  <body>
+    <header> <h1>Roll the dice!</h1></header>
+    <div class="dice-container">
+      <button id="rollButton6" class="dice-button">Roll 6-sided dice</button>
+      <p id="result6" class="dice-result"></p>
+    </div>
+    <div class="dice-container">
+      <button id="rollButton10" class="dice-button">Roll 10-sided dice</button>
+      <p id="result10" class="dice-result"></p>
+    </div>
+    <script src="dice.js"></script>
+  </body>
 </html>

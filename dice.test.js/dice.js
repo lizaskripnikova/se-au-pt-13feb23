@@ -1,25 +1,23 @@
-var dice = {
-    sides: 6,
-    roll: function () {
-      var randomNumber = Math.floor(Math.random() * this.sides) + 1;
-      return randomNumber;
-    }
-  }
+// Get references to the buttons and result elements
+let rollButton6 = document.getElementById("rollButton6");
+let resultElement6 = document.getElementById("result6");
+let rollButton10 = document.getElementById("rollButton10");
+let resultElement10 = document.getElementById("result10");
+
+// Add event listeners to the buttons
+rollButton6.addEventListener("click", function() {
+  // Generate a random number between 1 and 6 (inclusive)
+  let diceRoll = Math.floor(Math.random() * 6) + 1;
   
+  // Display the result on the web page
+  resultElement6.textContent = "You rolled a " + diceRoll + "!";
+});
+
+rollButton10.addEventListener("click", function() {
+  // Generate a random number between 1 and 10 (inclusive)
+  let diceRoll = Math.floor(Math.random() * 10) + 1;
   
-  
-  //Prints dice roll to the page
-  
-  function printNumber(number) {
-    var placeholder = document.getElementById('placeholder');
-    placeholder.innerHTML = number;
-  }
-  
-  var button = document.getElementById('button');
-  
-  button.onclick = function() {
-    var result = dice.roll();
-    printNumber(result);
-  };
-  
-  
+  // Display the result on the web page
+  resultElement10.textContent = "You rolled a " + diceRoll + "!";
+});
+
