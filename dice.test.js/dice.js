@@ -1,4 +1,4 @@
-// Get references to the buttons and result elements
+// Declare variables
 const rollButton6 = document.getElementById("rollButton6");
 const resultElement6 = document.getElementById("result6");
 const rollButton10 = document.getElementById("rollButton10");
