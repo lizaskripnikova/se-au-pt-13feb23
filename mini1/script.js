@@ -9,7 +9,7 @@ const cityName = document.getElementById("cityName");
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '2d3a406fa6mshb63c64cd061837dp1e7e83jsn225934598e8d',
+		'X-RapidAPI-Key': ,
 		'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
 	}
 };
