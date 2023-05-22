@@ -8,22 +8,26 @@
     font-family: 'Outfit', sans-serif;
     letter-spacing: 1.5px;
 }
+
 body{
     background-color: #000;
     overflow: hidden;
 }
+
 .container{
     max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
 }
+
 .top-head{
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 form input{
     font-size: 18px;
     outline: none;
@@ -35,9 +39,11 @@ form input{
     margin: 10px 0px;
     color: #ffffff;
 }
+
 form input:focus{
     box-shadow: 0px 0px 3px #ffffff;
 }
+
 form button{
     border: none;
     outline: none;
@@ -49,12 +55,14 @@ form button{
     box-shadow: 0px 0px 2px #737373;
     cursor: pointer;
 }
+
 .row{
     color: white;
     width: 100%;
     margin: 8% auto;
     text-align: center;
 }
+
 .col-1 img{
     width: 160px;
 }
@@ -63,9 +71,11 @@ form button{
     align-items: baseline;
     justify-content: center;
 }
+
 .col-1-1,.col-1-2{
     padding: 0px 20px;
 }
+
 .num, .deg{
     font-size: 60px;
     font-weight: 600;
@@ -83,18 +93,22 @@ form button{
     padding: 10px 20px;
     font-size: 20px;
 }
+
 .weather-details h3{
     padding: 5px;
     width: fit-content;
     margin: 20px 10px;
     border-bottom: 2px solid #f9f9f9;
 }
+
 .w-bottom ul{
     display: flex;
 }
+
 .w-bottom ul li {
     margin: 10px 20px;
 }
+
 #humidity, #feels_like, #wind_speed{
     color: #ffffff;
     font-weight: 600;
@@ -112,6 +126,7 @@ form button{
         text-align: center;
         padding: 20px 10px;
     }
+
     .top-head{
         display: block;
     }
@@ -119,6 +134,7 @@ form button{
     form{
         margin: 10px 5px;
     }
+
     form input, form button{
         padding: 5px 10px;
     }
@@ -126,9 +142,11 @@ form button{
     .col-1-1,.col-1-2{
         padding: 0px 10px;
     }
+
     .num, .deg{
         font-size: 40px;
     }
+
     .city{
         font-size: 20px;
     }
@@ -137,14 +155,17 @@ form button{
         margin-top: 20px;
         padding: 5px 20px;
     }
+
     .weather-details h3{
        margin: 10px auto;
        font-size: 20px;
     }
+
     .w-bottom ul{
         display: block;
        justify-content: center;
     }
+    
     .w-bottom ul li{
         font-size: 16px;
         margin-top: 20px;
