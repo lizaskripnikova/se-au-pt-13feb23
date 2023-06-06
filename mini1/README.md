@@ -1,5 +1,3 @@
-The requirements gathering and design process involved in building the app with multiple pages, navigation, and interaction with an external data source was useful and successful.
-
 The weather application provides users with accurate and up-to-date weather information for their location and other locations of interest. It offers various features to help users plan their activities and make informed decisions based on the forecast.
 
 Key Features:
@@ -14,9 +12,9 @@ The weather data is processed and displayed using elements such as temperature, 
 
 Users can interact with the application by searching for a city at the top-right. The app will then provide the current weather for that city along with recommended activities.
 
-The application utilizes various JavaScript techniques such as objects (e.g., temperature, cloud percentage), DOM functions (e.g., weather.innerHTML), loops, if-else statements, and event handlers.
+The application utilizes various JavaScript techniques such as objects, DOM functions, loops, if-else statements, and event handlers.
 
-External tools and libraries like Bootstrap and W3schools are used for HTML, CSS, and JavaScript to enhance the design and functionality of the app.
+External tools and libraries such as Bootstrap are used for HTML, CSS, and JavaScript to enhance the design and functionality of the app.
 
 HTML elements used include forms, divs, headings, a favicon image, and a button.
 
