@@ -68,3 +68,43 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+Here are some questions for the students to cover during their presentations:
+1. What was your requirements gathering and design process? Was it useful/successful?
+requirements: create an interactive page using React. Ideally the app will
+include interactive elements such as forms, links and buttons, along with routes, data fetching
+and various React hooks as needed, as well as external libraries such as bootstrap and MUI.
+
+sucessful: yes, I have button, data fetching, used bootstrap 
+
+2. Give a high level overview of your application and its features
+The weather application is designed to provide users with accurate and up-to-date information about weather conditions in their location and other locations of interest. It offers a range of features to help users plan their activities, stay informed about the weather, and make better decisions based on the forecast.
+
+3. Where does its data come from (external/internal APIs)?
+external API  'https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city='
+
+4. How is this data processed and displayed?
+The data is fetched, then displayed by using the elements such as - temperature, humidity, wind speed and cloud percentage. 
+
+5. How can the user interact with your application?
+User can search the city at the top-right and the application will give the current weather and the recommended activity to do based on the weather. 
+
+6. Have you used class components or functional components? Why?
+The Weather component is written as a function component using the useState hook.
+
+7. How have you structured/broken up your components/code?
+I used the basic react app structure without adding any extra components to it.
+The data is fetched and displayed in App.js
+
+8. What kinds of React hooks have you used (eg. state, context, effect, navigate)? How?
+The useState hook is used twice in the Weather component. 
+The weather state variable is used to store the weather data fetched from the API.
+The city state variable is used to track the user input for the city.
+
+9. What external tools/libraries have you used (eg. bootstrap/axios/MUI)? How? Why?
+bootstrap
+
+10. How might you extend the features of your application in future?
+I would add another API to show the current activities in each city. 
