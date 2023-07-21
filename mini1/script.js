@@ -11,7 +11,7 @@ const city = document.getElementById("city");
 const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': '',
+        'X-RapidAPI-Key': '2d3a406fa6mshb63c64cd061837dp1e7e83jsn225934598e8d',
         'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
     }
 };
@@ -99,4 +99,5 @@ const recommendActivity = (cloud_pct, temp, wind_speed) => {
         return "Recommended indoor activities: movie, museum, bowling, cooking, reading books";
     }
 };
+
 

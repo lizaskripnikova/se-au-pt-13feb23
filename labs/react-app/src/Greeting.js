@@ -1,5 +1,4 @@
 //slide 34 pt2
-
 /*import React from 'react';
 
 function Greeting(props) {
@@ -14,6 +13,8 @@ export default Greeting;*/
 
 
 
+
+//slide 44
 import React, { Component } from 'react';
 
 class Greeting extends Component {
