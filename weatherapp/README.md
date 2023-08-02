@@ -5,7 +5,7 @@ The app relies on the [OpenWeatherMap API](https://openweathermap.org/) to fetch
 
 #### Installation Instructions
 To set up the app locally, follow these steps:
-1. Clone the repository: `git clone git@github.com:lizaskripnikova/weather-app-react.git`
+1. Clone the repository: `git clone git@github.com:lizaskripnikova/weatherapp.git`
 2. Create a `config.js` file.
 3. Obtain your own API_KEY from https://home.openweathermap.org/ and add it to the `config.js` file. Then, import it into `App.js`.
 4. Navigate to the `weather-app-react-master` directory in the terminal.
